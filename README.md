@@ -1,2 +1,2 @@
 # EmailTempsComms
-Email Templates for Trigger and Cron Type notifications 
+Email Templates for Trigger and Cron Type notifications for Hub app
