@@ -1,2 +1,124 @@
-# EmailTempsComms
-Email Templates for Trigger and Cron Type notifications for Hub app
+# Repository Files Overview
+
+<h3>Active Files</h3>
+<table style="width: 100%; border-collapse: collapse; font-family: Arial, sans-serif;">
+  <thead>
+    <tr>
+      <th style="background-color: #f4f4f4; text-align: left; padding: 8px; border: 1px solid #ddd;">Type</th>
+      <th style="background-color: #f4f4f4; text-align: left; padding: 8px; border: 1px solid #ddd;">Title</th>
+      <th style="background-color: #f4f4f4; text-align: left; padding: 8px; border: 1px solid #ddd;">Context</th>
+      <th style="background-color: #f4f4f4; text-align: left; padding: 8px; border: 1px solid #ddd;">Links</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="padding: 8px; border: 1px solid #ddd;">Cron</td>
+      <td style="padding: 8px; border: 1px solid #ddd;">16 Hour Before Event Start Time: RSVP Mail</td>
+      <td style="padding: 8px; border: 1px solid #ddd;">PLACEHOLDER</td>
+      <td style="padding: 8px; border: 1px solid #ddd;"><a href="https://github.com/alitaantony/EmailTempsComms/tree/main/active">Link</a></td>
+    </tr>
+    <tr>
+      <td style="padding: 8px; border: 1px solid #ddd;">Trigger</td>
+      <td style="padding: 8px; border: 1px solid #ddd;">Event Application accepted</td>
+      <td style="padding: 8px; border: 1px solid #ddd;">PLACEHOLDER</td>
+      <td style="padding: 8px; border: 1px solid #ddd;"><a href="https://github.com/alitaantony/EmailTempsComms/tree/main/active">Link</a></td>
+    </tr>
+    <tr>
+      <td style="padding: 8px; border: 1px solid #ddd;">Trigger</td>
+      <td style="padding: 8px; border: 1px solid #ddd;">Event Application rejected</td>
+      <td style="padding: 8px; border: 1px solid #ddd;">PLACEHOLDER</td>
+      <td style="padding: 8px; border: 1px solid #ddd;"><a href="https://github.com/alitaantony/EmailTempsComms/tree/main/active">Link</a></td>
+    </tr>
+    <tr>
+      <td style="padding: 8px; border: 1px solid #ddd;">PLACEHOLDER</td>
+      <td style="padding: 8px; border: 1px solid #ddd;">16HReventrsvp</td>
+      <td style="padding: 8px; border: 1px solid #ddd;">PLACEHOLDER</td>
+      <td style="padding: 8px; border: 1px solid #ddd;"><a href="https://github.com/alitaantony/EmailTempsComms/tree/main/active/16HReventrsvp.html">Link</a></td>
+    </tr>
+    <tr>
+      <td style="padding: 8px; border: 1px solid #ddd;">PLACEHOLDER</td>
+      <td style="padding: 8px; border: 1px solid #ddd;">eventaccepted</td>
+      <td style="padding: 8px; border: 1px solid #ddd;">PLACEHOLDER</td>
+      <td style="padding: 8px; border: 1px solid #ddd;"><a href="https://github.com/alitaantony/EmailTempsComms/tree/main/active/eventaccepted.html">Link</a></td>
+    </tr>
+    <tr>
+      <td style="padding: 8px; border: 1px solid #ddd;">PLACEHOLDER</td>
+      <td style="padding: 8px; border: 1px solid #ddd;">eventrejected</td>
+      <td style="padding: 8px; border: 1px solid #ddd;">PLACEHOLDER</td>
+      <td style="padding: 8px; border: 1px solid #ddd;"><a href="https://github.com/alitaantony/EmailTempsComms/tree/main/active/eventrejected.html">Link</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<h3>Notactive Files</h3>
+<table style="width: 100%; border-collapse: collapse; font-family: Arial, sans-serif;">
+  <thead>
+    <tr>
+      <th style="background-color: #f4f4f4; text-align: left; padding: 8px; border: 1px solid #ddd;">Type</th>
+      <th style="background-color: #f4f4f4; text-align: left; padding: 8px; border: 1px solid #ddd;">Title</th>
+      <th style="background-color: #f4f4f4; text-align: left; padding: 8px; border: 1px solid #ddd;">Context</th>
+      <th style="background-color: #f4f4f4; text-align: left; padding: 8px; border: 1px solid #ddd;">Links</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="padding: 8px; border: 1px solid #ddd;">PLACEHOLDER</td>
+      <td style="padding: 8px; border: 1px solid #ddd;">veridhe</td>
+      <td style="padding: 8px; border: 1px solid #ddd;">PLACEHOLDER</td>
+      <td style="padding: 8px; border: 1px solid #ddd;"><a href="https://github.com/alitaantony/EmailTempsComms/tree/main/notactive/veridhe.html">Link</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<h3>Draft Files</h3>
+<table style="width: 100%; border-collapse: collapse; font-family: Arial, sans-serif;">
+  <thead>
+    <tr>
+      <th style="background-color: #f4f4f4; text-align: left; padding: 8px; border: 1px solid #ddd;">Type</th>
+      <th style="background-color: #f4f4f4; text-align: left; padding: 8px; border: 1px solid #ddd;">Title</th>
+      <th style="background-color: #f4f4f4; text-align: left; padding: 8px; border: 1px solid #ddd;">Context</th>
+      <th style="background-color: #f4f4f4; text-align: left; padding: 8px; border: 1px solid #ddd;">Links</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="padding: 8px; border: 1px solid #ddd;">PLACEHOLDER</td>
+      <td style="padding: 8px; border: 1px solid #ddd;">eventaccept</td>
+      <td style="padding: 8px; border: 1px solid #ddd;">PLACEHOLDER</td>
+      <td style="padding: 8px; border: 1px solid #ddd;"><a href="https://github.com/alitaantony/EmailTempsComms/tree/main/draft/eventaccept.html">Link</a></td>
+    </tr>
+    <tr>
+      <td style="padding: 8px; border: 1px solid #ddd;">PLACEHOLDER</td>
+      <td style="padding: 8px; border: 1px solid #ddd;">eventreject</td>
+      <td style="padding: 8px; border: 1px solid #ddd;">PLACEHOLDER</td>
+      <td style="padding: 8px; border: 1px solid #ddd;"><a href="https://github.com/alitaantony/EmailTempsComms/tree/main/draft/eventreject.html">Link</a></td>
+    </tr>
+    <tr>
+      <td style="padding: 8px; border: 1px solid #ddd;">PLACEHOLDER</td>
+      <td style="padding: 8px; border: 1px solid #ddd;">rsvpemail</td>
+      <td style="padding: 8px; border: 1px solid #ddd;">PLACEHOLDER</td>
+      <td style="padding: 8px; border: 1px solid #ddd;"><a href="https://github.com/alitaantony/EmailTempsComms/tree/main/draft/rsvpemail.html">Link</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<h3>Onetime Files</h3>
+<table style="width: 100%; border-collapse: collapse; font-family: Arial, sans-serif;">
+  <thead>
+    <tr>
+      <th style="background-color: #f4f4f4; text-align: left; padding: 8px; border: 1px solid #ddd;">Type</th>
+      <th style="background-color: #f4f4f4; text-align: left; padding: 8px; border: 1px solid #ddd;">Title</th>
+      <th style="background-color: #f4f4f4; text-align: left; padding: 8px; border: 1px solid #ddd;">Context</th>
+      <th style="background-color: #f4f4f4; text-align: left; padding: 8px; border: 1px solid #ddd;">Links</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="padding: 8px; border: 1px solid #ddd;">PLACEHOLDER</td>
+      <td style="padding: 8px; border: 1px solid #ddd;">tsdprogress</td>
+      <td style="padding: 8px; border: 1px solid #ddd;">PLACEHOLDER</td>
+      <td style="padding: 8px; border: 1px solid #ddd;"><a href="https://github.com/alitaantony/EmailTempsComms/tree/main/onetime/tsdprogress.ts">Link</a></td>
+    </tr>
+  </tbody>
+</table>
+
