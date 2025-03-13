@@ -30,7 +30,7 @@ def generate_html_table(folder):
     html += f'      <th style="{header_style}">Links</th>\n'
     html += "    </tr>\n  </thead>\n  <tbody>\n"
 
-    # Add default rows for 'active'
+    # Add default rows for the 'active' folder if available
     if folder in default_rows:
         for row in default_rows[folder]:
             html += "    <tr>\n"
@@ -39,41 +39,51 @@ def generate_html_table(folder):
             html += f'      <td style="{cell_style}">{row[2]}</td>\n'
             html += f'      <td style="{cell_style}"><a href="{base_url}{folder}">Link</a></td>\n'
             html += "    </tr>\n"
-    
-    # Add rows for each file found in the folder
+
+    # Attempt to read the folder and list its files
     folder_path = os.path.join(os.getcwd(), folder)
-    if os.path.exists(folder_path):
-        for filename in os.listdir(folder_path):
-            file_path = os.path.join(folder_path, filename)
-            if os.path.isfile(file_path):
-                title = os.path.splitext(filename)[0]
-                html += "    <tr>\n"
-                html += f'      <td style="{cell_style}">PLACEHOLDER</td>\n'
-                html += f'      <td style="{cell_style}">{title}</td>\n'
-                html += f'      <td style="{cell_style}">PLACEHOLDER</td>\n'
-                html += f'      <td style="{cell_style}"><a href="{base_url}{folder}/{filename}">Link</a></td>\n'
-                html += "    </tr>\n"
-    else:
+    try:
+        if os.path.exists(folder_path):
+            file_list = os.listdir(folder_path)
+        else:
+            raise FileNotFoundError(f"Folder '{folder}' not found.")
+    except Exception as e:
         html += "    <tr>\n"
-        html += f'      <td style="{cell_style}" colspan="4">Folder not found.</td>\n'
+        html += f'      <td style="{cell_style}" colspan="4">Error reading folder: {e}</td>\n'
         html += "    </tr>\n"
-    
+        html += "  </tbody>\n</table>\n"
+        return html
+
+    # Add a row for each file in the folder, only if the file exists
+    for filename in file_list:
+        file_path = os.path.join(folder_path, filename)
+        if os.path.isfile(file_path):
+            title = os.path.splitext(filename)[0]
+            html += "    <tr>\n"
+            html += f'      <td style="{cell_style}">PLACEHOLDER</td>\n'
+            html += f'      <td style="{cell_style}">{title}</td>\n'
+            html += f'      <td style="{cell_style}">PLACEHOLDER</td>\n'
+            html += f'      <td style="{cell_style}"><a href="{base_url}{folder}/{filename}">Link</a></td>\n'
+            html += "    </tr>\n"
     html += "  </tbody>\n</table>\n"
     return html
 
 def main():
-    # Create the README content with a header
+    # Start the README with a header
     readme_content = "# Repository Files Overview\n\n"
     
-    # Generate a table for each folder
+    # Generate and append a table for each folder
     for folder in folders:
         readme_content += generate_html_table(folder)
         readme_content += "\n"  # Extra newline for separation
     
     # Write the content to README.md
-    with open("README.md", "w", encoding="utf-8") as f:
-        f.write(readme_content)
-    print("README.md has been updated with stylish tables.")
+    try:
+        with open("README.md", "w", encoding="utf-8") as f:
+            f.write(readme_content)
+        print("README.md has been updated with stylish tables.")
+    except Exception as e:
+        print(f"Error writing to README.md: {e}")
 
 if __name__ == "__main__":
     main()
