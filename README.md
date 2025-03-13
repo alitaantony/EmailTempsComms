@@ -49,6 +49,12 @@
       <td style="padding: 8px; border: 1px solid #ddd;">PLACEHOLDER</td>
       <td style="padding: 8px; border: 1px solid #ddd;"><a href="https://github.com/alitaantony/EmailTempsComms/tree/main/notactive/veridhe.html">Link</a></td>
     </tr>
+    <tr>
+      <td style="padding: 8px; border: 1px solid #ddd;">PLACEHOLDER</td>
+      <td style="padding: 8px; border: 1px solid #ddd;">veridhe1</td>
+      <td style="padding: 8px; border: 1px solid #ddd;">PLACEHOLDER</td>
+      <td style="padding: 8px; border: 1px solid #ddd;"><a href="https://github.com/alitaantony/EmailTempsComms/tree/main/notactive/veridhe1.html">Link</a></td>
+    </tr>
   </tbody>
 </table>
 
