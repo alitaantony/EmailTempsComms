@@ -2,7 +2,8 @@ name: Update README with Tables
 
 on:
   push:
-    branches: main
+    branches:
+      - main
   workflow_dispatch:
 
 jobs:
@@ -20,14 +21,10 @@ jobs:
       - name: Run README generator script
         run: python generate_readme.py
 
-      - name: Commit changes
-        run: |
-          git config --local user.name "github-actions[bot]"
-          git config --local user.email "github-actions[bot]@users.noreply.github.com"
-          git add README.md
-          git diff --cached --quiet || git commit -m "Update README with stylish dynamic tables"
-
-      - name: Push changes
-        uses: ad-m/github-push-action@v0.6.0
+      - name: Create Pull Request
+        uses: peter-evans/create-pull-request@v4
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          commit-message: "Update README with stylish dynamic tables"
+          branch: update-readme
+          title: "Update README with latest file links"
+          body: "This PR was created automatically to update the README."
