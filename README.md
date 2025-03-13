@@ -12,24 +12,6 @@
   </thead>
   <tbody>
     <tr>
-      <td style="padding: 8px; border: 1px solid #ddd;">Cron</td>
-      <td style="padding: 8px; border: 1px solid #ddd;">16 Hour Before Event Start Time: RSVP Mail</td>
-      <td style="padding: 8px; border: 1px solid #ddd;">PLACEHOLDER</td>
-      <td style="padding: 8px; border: 1px solid #ddd;"><a href="https://github.com/alitaantony/EmailTempsComms/tree/main/active">Link</a></td>
-    </tr>
-    <tr>
-      <td style="padding: 8px; border: 1px solid #ddd;">Trigger</td>
-      <td style="padding: 8px; border: 1px solid #ddd;">Event Application accepted</td>
-      <td style="padding: 8px; border: 1px solid #ddd;">PLACEHOLDER</td>
-      <td style="padding: 8px; border: 1px solid #ddd;"><a href="https://github.com/alitaantony/EmailTempsComms/tree/main/active">Link</a></td>
-    </tr>
-    <tr>
-      <td style="padding: 8px; border: 1px solid #ddd;">Trigger</td>
-      <td style="padding: 8px; border: 1px solid #ddd;">Event Application rejected</td>
-      <td style="padding: 8px; border: 1px solid #ddd;">PLACEHOLDER</td>
-      <td style="padding: 8px; border: 1px solid #ddd;"><a href="https://github.com/alitaantony/EmailTempsComms/tree/main/active">Link</a></td>
-    </tr>
-    <tr>
       <td style="padding: 8px; border: 1px solid #ddd;">PLACEHOLDER</td>
       <td style="padding: 8px; border: 1px solid #ddd;">16HReventrsvp</td>
       <td style="padding: 8px; border: 1px solid #ddd;">PLACEHOLDER</td>
