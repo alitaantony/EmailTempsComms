@@ -13,19 +13,19 @@
   <tbody>
     <tr>
       <td style="padding: 8px; border: 1px solid #ddd;">Cron</td>
-      <td style="padding: 8px; border: 1px solid #ddd;">16HReventrsvp</td>
+      <td style="padding: 8px; border: 1px solid #ddd;">16 Hour Before Event Start Time: RSVP Mail</td>
       <td style="padding: 8px; border: 1px solid #ddd;">PLACEHOLDER</td>
       <td style="padding: 8px; border: 1px solid #ddd;"><a href="https://github.com/alitaantony/EmailTempsComms/tree/main/active/16HReventrsvp.html">Link</a></td>
     </tr>
     <tr>
       <td style="padding: 8px; border: 1px solid #ddd;">PLACEHOLDER</td>
-      <td style="padding: 8px; border: 1px solid #ddd;">eventaccepted</td>
+      <td style="padding: 8px; border: 1px solid #ddd;">Event Application Accepted</td>
       <td style="padding: 8px; border: 1px solid #ddd;">PLACEHOLDER</td>
       <td style="padding: 8px; border: 1px solid #ddd;"><a href="https://github.com/alitaantony/EmailTempsComms/tree/main/active/eventaccepted.html">Link</a></td>
     </tr>
     <tr>
       <td style="padding: 8px; border: 1px solid #ddd;">PLACEHOLDER</td>
-      <td style="padding: 8px; border: 1px solid #ddd;">eventrejected</td>
+      <td style="padding: 8px; border: 1px solid #ddd;">Event Application Rejected</td>
       <td style="padding: 8px; border: 1px solid #ddd;">PLACEHOLDER</td>
       <td style="padding: 8px; border: 1px solid #ddd;"><a href="https://github.com/alitaantony/EmailTempsComms/tree/main/active/eventrejected.html">Link</a></td>
     </tr>
