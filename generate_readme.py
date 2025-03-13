@@ -18,7 +18,7 @@ def generate_html_table(folder):
     html += f'      <th style="{header_style}">Type</th>\n'
     html += f'      <th style="{header_style}">Title</th>\n'
     html += f'      <th style="{header_style}">Context</th>\n'
-    html += f'      <th style="{header_style}">Links</th>\n'
+    html += f'      <th style="{header_style}">Link</th>\n'
     html += "    </tr>\n  </thead>\n  <tbody>\n"
     
     # Try to read the folder and add rows for each file

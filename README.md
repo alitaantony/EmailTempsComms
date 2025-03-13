@@ -7,7 +7,7 @@
       <th style="background-color: #f4f4f4; text-align: left; padding: 8px; border: 1px solid #ddd;">Type</th>
       <th style="background-color: #f4f4f4; text-align: left; padding: 8px; border: 1px solid #ddd;">Title</th>
       <th style="background-color: #f4f4f4; text-align: left; padding: 8px; border: 1px solid #ddd;">Context</th>
-      <th style="background-color: #f4f4f4; text-align: left; padding: 8px; border: 1px solid #ddd;">Links</th>
+      <th style="background-color: #f4f4f4; text-align: left; padding: 8px; border: 1px solid #ddd;">Link</th>
     </tr>
   </thead>
   <tbody>
@@ -39,7 +39,7 @@
       <th style="background-color: #f4f4f4; text-align: left; padding: 8px; border: 1px solid #ddd;">Type</th>
       <th style="background-color: #f4f4f4; text-align: left; padding: 8px; border: 1px solid #ddd;">Title</th>
       <th style="background-color: #f4f4f4; text-align: left; padding: 8px; border: 1px solid #ddd;">Context</th>
-      <th style="background-color: #f4f4f4; text-align: left; padding: 8px; border: 1px solid #ddd;">Links</th>
+      <th style="background-color: #f4f4f4; text-align: left; padding: 8px; border: 1px solid #ddd;">Link</th>
     </tr>
   </thead>
   <tbody>
@@ -65,7 +65,7 @@
       <th style="background-color: #f4f4f4; text-align: left; padding: 8px; border: 1px solid #ddd;">Type</th>
       <th style="background-color: #f4f4f4; text-align: left; padding: 8px; border: 1px solid #ddd;">Title</th>
       <th style="background-color: #f4f4f4; text-align: left; padding: 8px; border: 1px solid #ddd;">Context</th>
-      <th style="background-color: #f4f4f4; text-align: left; padding: 8px; border: 1px solid #ddd;">Links</th>
+      <th style="background-color: #f4f4f4; text-align: left; padding: 8px; border: 1px solid #ddd;">Link</th>
     </tr>
   </thead>
   <tbody>
@@ -97,7 +97,7 @@
       <th style="background-color: #f4f4f4; text-align: left; padding: 8px; border: 1px solid #ddd;">Type</th>
       <th style="background-color: #f4f4f4; text-align: left; padding: 8px; border: 1px solid #ddd;">Title</th>
       <th style="background-color: #f4f4f4; text-align: left; padding: 8px; border: 1px solid #ddd;">Context</th>
-      <th style="background-color: #f4f4f4; text-align: left; padding: 8px; border: 1px solid #ddd;">Links</th>
+      <th style="background-color: #f4f4f4; text-align: left; padding: 8px; border: 1px solid #ddd;">Link</th>
     </tr>
   </thead>
   <tbody>
