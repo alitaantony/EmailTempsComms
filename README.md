@@ -1,6 +1,6 @@
 # Repository Files Overview
 
-<h3>Active Comms</h3>
+<h3>Active</h3>
 <table style="width: 100%; border-collapse: collapse; font-family: Arial, sans-serif;">
   <thead>
     <tr>
@@ -32,7 +32,7 @@
   </tbody>
 </table>
 
-<h3>Notactive </h3>
+<h3>Not Active </h3>
 <table style="width: 100%; border-collapse: collapse; font-family: Arial, sans-serif;">
   <thead>
     <tr>
@@ -58,7 +58,7 @@
   </tbody>
 </table>
 
-<h3>Draft Files</h3>
+<h3>Draft</h3>
 <table style="width: 100%; border-collapse: collapse; font-family: Arial, sans-serif;">
   <thead>
     <tr>
@@ -70,27 +70,27 @@
   </thead>
   <tbody>
     <tr>
-      <td style="padding: 8px; border: 1px solid #ddd;">PLACEHOLDER</td>
+      <td style="padding: 8px; border: 1px solid #ddd;">Trigger</td>
       <td style="padding: 8px; border: 1px solid #ddd;">eventaccept</td>
-      <td style="padding: 8px; border: 1px solid #ddd;">PLACEHOLDER</td>
+      <td style="padding: 8px; border: 1px solid #ddd;">Event Application confirmed and contains "Team TinkerHub" Sign Off</td>
       <td style="padding: 8px; border: 1px solid #ddd;"><a href="https://github.com/alitaantony/EmailTempsComms/tree/main/draft/eventaccept.html">Link</a></td>
     </tr>
     <tr>
-      <td style="padding: 8px; border: 1px solid #ddd;">PLACEHOLDER</td>
+      <td style="padding: 8px; border: 1px solid #ddd;">Trigger</td>
       <td style="padding: 8px; border: 1px solid #ddd;">eventreject</td>
-      <td style="padding: 8px; border: 1px solid #ddd;">PLACEHOLDER</td>
+      <td style="padding: 8px; border: 1px solid #ddd;">Event Rejected confirmed and contains "Team TinkerHub" Sign Off</td>
       <td style="padding: 8px; border: 1px solid #ddd;"><a href="https://github.com/alitaantony/EmailTempsComms/tree/main/draft/eventreject.html">Link</a></td>
     </tr>
     <tr>
-      <td style="padding: 8px; border: 1px solid #ddd;">PLACEHOLDER</td>
+      <td style="padding: 8px; border: 1px solid #ddd;">RSVP Mail</td>
       <td style="padding: 8px; border: 1px solid #ddd;">rsvpemail</td>
-      <td style="padding: 8px; border: 1px solid #ddd;">PLACEHOLDER</td>
+      <td style="padding: 8px; border: 1px solid #ddd;">Event RSVP and contains "Team TinkerHub" Sign Off</td>
       <td style="padding: 8px; border: 1px solid #ddd;"><a href="https://github.com/alitaantony/EmailTempsComms/tree/main/draft/rsvpemail.html">Link</a></td>
     </tr>
   </tbody>
 </table>
 
-<h3>Onetime Files</h3>
+<h3>One Time</h3>
 <table style="width: 100%; border-collapse: collapse; font-family: Arial, sans-serif;">
   <thead>
     <tr>
