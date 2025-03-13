@@ -51,7 +51,7 @@ def main():
     
     with open("README.md", "w", encoding="utf-8") as f:
         f.write(readme_content)
-    print("README.md has been updated with stylish tables.")
+    print("README.md has been updated with tables.")
 
 if __name__ == "__main__":
     main()
