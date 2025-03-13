@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>RSVP Confirmation - TinkerHub</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      margin: 0;
+      padding: 0;
+      font-size: 14px;
+      line-height:1.6em;
+    }
+    a {
+      color: #007BFF;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+  <table width="600" border="0" cellspacing="0" cellpadding="20" align="center" style="background-color: #ffffff; border: 1px solid #ddd; border-radius: 5px; margin: 30px auto;">
+    <tr>
+      <td>
+        <p>Hi {Name},</p>
+        <p>
+          Thank you for registering for <strong>{Event Name}</strong>. We are excited to see you there.
+          You can access your ticket and Event URL via the <a href="https://app.tinkerhub.org/" target="_blank">TinkerHub app</a>.
+        </p>
+        <p>Below is a summary of your event details:</p>
+        <p>{{Event Name}}</p>
+        <p>{{Location}}</p>
+        <p>{{Date & Time}}</p>
+        <p>If you're unable to attend, please cancel your ticket within the next 3 hours. Cancellation helps us manage attendance, provides someone else the opportunity to participate, and safeguards your eligibility for future events.</p>
+        <p>If you need any assistance, please reach out to {Host} at <a href="mailto:host@gmail.com">host@gmail.com</a>.</p>
+        <p>Looking forward to having you there!</p>
+        <p><em>Team TinkerHub</em></p>
+      </td>
+    </tr>
+  </table>
+</body>
+</html>
