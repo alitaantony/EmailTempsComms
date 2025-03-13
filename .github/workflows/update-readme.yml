@@ -2,8 +2,7 @@ name: Update README with Tables
 
 on:
   push:
-    branches:
-      - main
+    branches: main
   workflow_dispatch:
 
 jobs:
