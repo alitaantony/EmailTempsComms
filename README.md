@@ -102,9 +102,9 @@
   </thead>
   <tbody>
     <tr>
-      <td style="padding: 8px; border: 1px solid #ddd;">PLACEHOLDER</td>
+      <td style="padding: 8px; border: 1px solid #ddd;">TSD Email with Dynamic Progress Bar</td>
       <td style="padding: 8px; border: 1px solid #ddd;">tsdprogress</td>
-      <td style="padding: 8px; border: 1px solid #ddd;">PLACEHOLDER</td>
+      <td style="padding: 8px; border: 1px solid #ddd;">Informs learners of their progress in 'Beyond The Blueprint' course by extracting the lessons they have completed from a CSV file and dynamically changes progress bar for each learner in-mail</td>
       <td style="padding: 8px; border: 1px solid #ddd;"><a href="https://github.com/alitaantony/EmailTempsComms/tree/main/onetime/tsdprogress.ts">Link</a></td>
     </tr>
   </tbody>
